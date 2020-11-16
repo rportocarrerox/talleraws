@@ -7,13 +7,6 @@ Function name: Demo<br>
 Runtime: python 3.7<br> 
 Create function<br>
 ## 2.- Abrir lambda Demo
-Function code agregar:<br>
-<pre>
-        'body': json.dumps('Hello from Lambda!',
-        'headers': {
-            'Content-type': 'application/json',
-        },
-</pre>
 ## 3.- Add Trigger
 <pre>
         Trigger configuration: API Gateway
@@ -28,6 +21,13 @@ Function code agregar:<br>
 <pre>
 Details:
         API endpoint: https://xxxxxxxx.execute-api.us-east-1.amazonaws.com/default/Demo   <-- (Right click new tab)
+        curl https://xxxxxxxx.execute-api.us-east-1.amazonaws.com/default/Demo
 </pre>
 
-
+## 5.- Function code
+<pre>
+lambda_function:
+        'body': json.dumps('Taller ninja!')
+        Deploy
+        curl https://xxxxxxxx.execute-api.us-east-1.amazonaws.com/default/Demo
+</pre>
