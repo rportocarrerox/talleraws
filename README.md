@@ -27,7 +27,7 @@ Function code agregar:<br>
 ## 4.- API Gateway
 <pre>
 Details:
-        API endpoint: https://xxxxxxxx.execute-api.us-east-1.amazonaws.com/default/Demo   <-- (Click right new tab)
+        API endpoint: https://xxxxxxxx.execute-api.us-east-1.amazonaws.com/default/Demo   <-- (Right click new tab)
 </pre>
 
 
