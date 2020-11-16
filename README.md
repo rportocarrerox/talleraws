@@ -14,4 +14,20 @@ Function code agregar:<br>
             'Content-type': 'application/json',
         },
 </pre>
-## 3.- 
+## 3.- Add Trigger
+<pre>
+        Trigger configuration: API Gateway
+        API: Create API
+        API Type: Rest API
+        Security: Open
+        Add
+        
+</pre>
+
+## 4.- API Gateway
+<pre>
+Details:
+        API endpoint: https://xxxxxxxx.execute-api.us-east-1.amazonaws.com/default/Demo   <-- (Click)
+</pre>
+
+
