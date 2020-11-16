@@ -7,5 +7,9 @@ Function name: Demo<br>
 Runtime: python 3.7<br> 
 Create function<br>
 ## 2.- Abrir lambda Demo
+Function code agregar:<br>
+        'headers': {
+            'Content-type': 'application/json',
+        },
 
 ## 3.- 
