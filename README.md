@@ -25,8 +25,8 @@ Details:
 </pre>
 
 ## 5.- Function code
-<pre>
 ### Cambiar Hello Word! por Taller Ninja
+<pre>
 lambda_function:
         'body': json.dumps('Taller ninja!')
         Deploy
