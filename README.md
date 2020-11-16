@@ -9,6 +9,7 @@ Create function<br>
 ## 2.- Abrir lambda Demo
 Function code agregar:<br>
 <pre>
+        'body': json.dumps('Hello from Lambda!',
         'headers': {
             'Content-type': 'application/json',
         },
